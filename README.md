@@ -11,9 +11,9 @@ struct Block {
 }
 ```
 
-`hash`: Mã băm của khối
-`data`: Dữ liệu của khối
-`prev_hash`: Mã băm của khối trước đó
+`hash`: Mã băm của khối \
+`data`: Dữ liệu của khối \
+`prev_hash`: Mã băm của khối trước đó \
 `nonce`: Số nguyên không âm
 
 ## Cấu trúc của một chuỗi khối
@@ -35,7 +35,7 @@ struct ProofOfWork {
 }
 ```
 
-`block`: Khối cần tìm nonce
+`block`: Khối cần tìm nonce \
 `target`: Một chuỗi nhị phân có độ dài bằng với số lượng bit 0 ở đầu của mã băm của khối
 
 ### Cách hoạt động của Proof of work
